@@ -11,7 +11,7 @@ function drawSongs(results) {
   for (let i = 0; i < results.length; i++) {
     const song = results[i]; {
       template += `
-      <div class="card text-white bg-primary mb-3 col-4">
+      <div class="card text-white bg-transparent mb-3 mt-3  ml-1.5 mr 1.5 col-4">
         <img class="card-img-top" src="${song.albumArt}"/>
           <h5 class="card-title">Song Name:   ${song.title}</h5>
           <p class="card-text">Song Artist:   ${song.artist}</p>
